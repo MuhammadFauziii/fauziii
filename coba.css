@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.about-section, .portfolio-section, .contact-section {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.about-section .photo {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.about-section .photo1 {
+    max-width: 150px;
+    border-radius: 90%;
+    margin-top: 20px;
+    height: 200px;
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    margin: 20px;
+    max-width: 300px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.portfolio-item h3 {
+    margin: 10px 0 5px;
+}
+
+.contact-section form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.h5 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.justified-text {
+    text-align: justify;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.gambar {
+    font-size: 30px;
+    text-align: center;
+}
